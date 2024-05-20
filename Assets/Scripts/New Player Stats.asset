@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1a2806270a0de46980686247d6f41c, type: 3}
+  m_Name: New Player Stats
+  m_EditorClassIdentifier: 
+  playerSpeed: 20
+  friction: 0.9
+  acceleration: 5
+  accelerationAng: 4
+  maxAngularSpeed: 4
+  maxSpeed: 30
+  brakeStrength: 4
+  brakeFriction: 4
+  rotationSpeed: 5
+  driftForce: 5
+  minDriftSpeed: 5

@@ -1,0 +1,63 @@
+{
+    "name": "control",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "35e660b0-d492-4d36-a50d-870c70cf8524",
+            "actions": [
+                {
+                    "name": "HandBreak",
+                    "type": "Button",
+                    "id": "9abd9d5f-08e2-4f06-9d66-dff350f71ce6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Forward",
+                    "type": "Button",
+                    "id": "b05ade5a-1c43-4f97-a0cf-34f9c364e6de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "turn",
+                    "type": "Button",
+                    "id": "30eebc75-7c0a-4215-beda-1ecdd9dd27af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2db428ea-2389-48c5-932b-a7923169f1bd",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HandBreak",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33b1a5c4-1b0a-4176-afcb-ba2ad28b0e47",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
